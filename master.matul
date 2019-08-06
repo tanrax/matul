@@ -1,0 +1,31 @@
+html
+    head
+        class = app
+        id = page
+        link
+            src = http://dfdfdfdffd
+        title
+            > Soy el título
+    body
+        id = app
+        section
+            # Atributos separados con =
+            id = propia
+            # CSS separados con :
+            background-color: red
+            font-size: 3rem
+            color: white
+            # Javascript tabulado dentro de script
+            script
+                let num1 = 4;
+                let num2 = 3;
+                let total = num1 + num2
+                console.log(total)
+            # El contenido siempre empieza con >
+            > Lorem ipsum
+        p
+            align = center
+            border: 1px solid black
+            > Lorem
+            # Importar parte de otro documento con doble -- y extensión .matul
+            -- ../web/moduls/carousel.matul
